@@ -1,6 +1,9 @@
 function appendValue(value) {
     document.getElementById("result").value += value;
   }
+function deleteLast() {
+  display.textContent = display.textContent.slice(0, -1);
+}
   
   function clearScreen() {
     document.getElementById("result").value = "";
