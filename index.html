@@ -9,9 +9,9 @@
 <body>
   <div class="calculator">
     <input type="text" id="result" class="calculator-screen" readonly>
+    <hr>
     <div class="calculator-buttons">
       <button onclick="clearScreen()">C</button>
-      <button onclick="deleteLast()">⌫</button>
       <button onclick="appendValue('(')">(</button>
       <button onclick="appendValue(')')">)</button>
       <button onclick="appendValue('/')">/</button>
@@ -31,6 +31,7 @@
       <button onclick="appendValue('3')">3</button>
       <button onclick="appendValue('+')">+</button>
 
+      <button onclick="backspace()">correct</button>
       <button onclick="appendValue('0')">0</button>
       <button onclick="appendValue('.')">.</button>
       <button onclick="calculate()">=</button>

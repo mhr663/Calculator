@@ -1,14 +1,14 @@
 function appendValue(value) {
     document.getElementById("result").value += value;
   }
-function deleteLast() {
-  display.textContent = display.textContent.slice(0, -1);
-}
   
   function clearScreen() {
     document.getElementById("result").value = "";
   }
-  
+  function backspace(){
+    let result = document.getElementById("result");
+    result.value = result.value.slice(0,-1);
+  }
   function calculate() {
     try {
       const result = eval(document.getElementById("result").value);
@@ -17,3 +17,4 @@ function deleteLast() {
       document.getElementById("result").value = "Error";
     }
   }
+  

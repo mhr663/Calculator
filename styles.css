@@ -7,14 +7,7 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
   }
-  button:nth-child(2) { /* Assuming it's the second button in the grid */
-  background: #ff6666;
-  color: white;
-}
-
-button:nth-child(2):hover {
-  background: #ff4d4d;
-}
+  
   .calculator {
     width: 300px;
     background-color: #fff;
@@ -23,9 +16,9 @@ button:nth-child(2):hover {
   }
   
   .calculator-screen {
-    width: 90%;
+    width:92%;
     height: 60px;
-    border: solid;
+    border:solid;
     background: #f7f7f7;
     text-align: right;
     padding: 10px;
